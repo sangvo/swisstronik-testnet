@@ -1,5 +1,10 @@
 # Swisstronik test nest
-1. Add your private key in `.env`
+1. 
+```
+cp .env.sample .env
+```
+Add your private key in `.env`
+- Note remove `0x` in your private key
 2. Run deploy contract
 ```shell
 npx hardhat run scripts/deploy.js --network swisstronik
